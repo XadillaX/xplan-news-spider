@@ -1,10 +1,10 @@
 {
-  "name": "xplan-news-spider",
+  "name": "x-plan-news-spider",
   "version": "0.0.1",
   "description": "",
-  "main": "zju.xplan.pioneer.js",
+  "main": "zju.xplan.latecomer.js",
   "dependencies": {
-    "xplanspider": "~0.0.1"
+    "xplanspider": "~0.0.2"
   },
   "devDependencies": {},
   "scripts": {

@@ -12,6 +12,7 @@ latecomer.on("content", function(url, html, status, respHeader) {
     var source = "";
     var author = "";
     var type = "";
+    var image="";
 
     /**
      * search for origId
@@ -52,9 +53,30 @@ latecomer.on("content", function(url, html, status, respHeader) {
     if(typeResult) {
         type = typeResult[1];
     }
+    /**
+     * newsurl
+     */
+
+    var newsurl=url;
+    /**
+     * image
+     * <img alt="" src="http://www.cst.zju.edu.cn/uploadfile/2013/1218/20131218101413599.jpg" style="width: 600px; height: 450px">
+     */
+    var imageRegexp1 = /<table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 500px">\s*<tbody>\s*<tr>\s*<td>\s*<img(?!.*?logo).*>/g;
+    var imageRegexp2 =/src="(\S+)" /;
+    var imageResult = html.match(imageRegexp1);
+    //console.log(imageResult);
+    if(imageResult) {
+        image=[];
+        for(var i = 0; i < imageResult.length; i++) {
+        image[i]=imageResult[i].match(imageRegexp2)[1];
+
+        }
+        //console.log(image);
+    }
 
     // store this news to mongoDB
-    latecomer.store(origId, title, content, time, source, author, type);
+    latecomer.store(origId, title, content,time,source, author,type,newsurl,image);
 
     console.log("[" + origId + "]" + type + " - " + title);
 

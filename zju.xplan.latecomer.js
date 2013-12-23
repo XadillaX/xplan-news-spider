@@ -70,7 +70,6 @@ latecomer.on("content", function(url, html, status, respHeader) {
         image=[];
         for(var i = 0; i < imageResult.length; i++) {
         image[i]=imageResult[i].match(imageRegexp2)[1];
-
         }
         //console.log(image);
     }

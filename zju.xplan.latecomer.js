@@ -60,18 +60,42 @@ latecomer.on("content", function(url, html, status, respHeader) {
     var newsurl=url;
     /**
      * image
-     * <img alt="" src="http://www.cst.zju.edu.cn/uploadfile/2013/1218/20131218101413599.jpg" style="width: 600px; height: 450px">
+     *  <img alt="" src="http://www.cst.zju.edu.cn/uploadfile/2013/1218/20131218101327623.jpg" style="width: 600px; height: 450px">
+     *  <img src="/upfiles/20110223133043159.jpg" border="0">
+     *  <img src="http://www.cst.zju.edu.cn/uploadfile/2013/1025/20131025085657376.jpg">
      */
-    var imageRegexp1 = /<table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 500px">\s*<tbody>\s*<tr>\s*<td>\s*<img(?!.*?logo).*>/g;
-    var imageRegexp2 =/src="(\S+)" /;
-    var imageResult = html.match(imageRegexp1);
-    //console.log(imageResult);
-    if(imageResult) {
-        image=[];
-        for(var i = 0; i < imageResult.length; i++) {
-        image[i]=imageResult[i].match(imageRegexp2)[1];
+//    var imageRegexp1 = /<table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 500px">\s*<tbody>\s*<tr>\s*<td>\s*<img(?!.*?logo).*>/g;
+
+   var imageRegexp1 = /<img .+?>/g;
+   var imageRegexp2 = /<IMG .+?>/g;
+   var imageRegexp3 =/src="(\S+)" /;
+   var imageResult1 = contentResult[1].match(imageRegexp1);
+   var imageResult2 = contentResult[1].match(imageRegexp2);
+   var imageResult1length=0;
+   var imageResult2length=0;
+    image=[];
+    if(imageResult1) {
+         imageResult1length=imageResult1.length;
+        for(var i = 0; i < imageResult1length;) {
+            if(imageResult1[i].match(imageRegexp3)){
+                image[i]=imageResult1[i].match(imageRegexp3)[1];
+                i++;
+            }else{
+                imageResult1length=imageResult1length-1;
+            }
         }
-        //console.log(image);
+    }
+    if(imageResult2) {
+        imageResult2length=imageResult1length+imageResult2.length;
+
+        for(var i = imageResult1length; i <imageResult2length;) {
+            if(imageResult2[i-imageResult1length].match(imageRegexp3)){
+                image[i]=imageResult2[i-imageResult1length].match(imageRegexp3)[1];
+                i++;
+            }else{
+                imageResult2length=imageResult2length-1;
+            }
+        }
     }
 
     // store this news to mongoDB

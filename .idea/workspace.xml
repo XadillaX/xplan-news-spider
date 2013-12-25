@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="377f7315-954e-4ed0-8d78-508aad526ed7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zju.xplan.latecomer.js" afterPath="$PROJECT_DIR$/zju.xplan.latecomer.js" />
-    </list>
+    <list default="true" id="377f7315-954e-4ed0-8d78-508aad526ed7" name="Default" comment="" />
     <ignored path="567.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,7 +26,7 @@
       <file leaf-file-name="zju.xplan.latecomer.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zju.xplan.latecomer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="32" selection-start="2162" selection-end="3268" vertical-scroll-proportion="0.7098214" vertical-offset="888" max-vertical-offset="1875">
+            <state line="88" column="66" selection-start="2917" selection-end="2917" vertical-scroll-proportion="0.64285713" vertical-offset="888" max-vertical-offset="1875">
               <folding />
             </state>
           </provider>
@@ -359,7 +356,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zju.xplan.latecomer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="32" selection-start="2162" selection-end="3268" vertical-scroll-proportion="0.7098214" vertical-offset="888" max-vertical-offset="1875">
+        <state line="88" column="66" selection-start="2917" selection-end="2917" vertical-scroll-proportion="0.64285713" vertical-offset="888" max-vertical-offset="1875">
           <folding />
         </state>
       </provider>

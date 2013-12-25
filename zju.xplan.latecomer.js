@@ -12,7 +12,7 @@ latecomer.on("content", function(url, html, status, respHeader) {
     var source = "";
     var author = "";
     var type = "";
-    var image="";
+    var image = "";
 
     /**
      * search for origId
@@ -57,63 +57,54 @@ latecomer.on("content", function(url, html, status, respHeader) {
      * newsurl
      */
 
-    var newsurl=url;
+    var newsurl = url;
+
     /**
      * image
      *  <img alt="" src="http://www.cst.zju.edu.cn/uploadfile/2013/1218/20131218101327623.jpg" style="width: 600px; height: 450px">
      *  <img src="/upfiles/20110223133043159.jpg" border="0">
      *  <img src="http://www.cst.zju.edu.cn/uploadfile/2013/1025/20131025085657376.jpg">
      */
-//    var imageRegexp1 = /<table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 500px">\s*<tbody>\s*<tr>\s*<td>\s*<img(?!.*?logo).*>/g;
+    //var imageRegexp1 = /<table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 500px">\s*<tbody>\s*<tr>\s*<td>\s*<img(?!.*?logo).*>/g;
 
-   var imageRegexp1 = /<img .+?>/g;
-   var imageRegexp2 = /<IMG .+?>/g;
-   var imageRegexp3 =/src="(\S+)" /;
-   var imageResult1 = contentResult[1].match(imageRegexp1);
-   var imageResult2 = contentResult[1].match(imageRegexp2);
-   var imageResult1length=0;
-   var imageResult2length=0;
-    image=[];
+    var imageRegexp1 = /<img .+?>/g;
+    var imageRegexp2 = /<IMG .+?>/g;
+    var imageRegexp3 = /src="(\S+)" /;
+    var imageResult1 = contentResult[1].match(imageRegexp1);
+    var imageResult2 = contentResult[1].match(imageRegexp2);
+    var imageResult1length = 0;
+    var imageResult2length = 0;
+    image = [];
     if(imageResult1) {
-         imageResult1length=imageResult1.length;
-        for(var i = 0; i < imageResult1length;) {
-            if(imageResult1[i].match(imageRegexp3)){
+        imageResult1length = imageResult1.length;
+
+        for(var i = 0; i < imageResult1length; ) {
+            if(imageResult1[i].match(imageRegexp3)) {
                 image[i]=imageResult1[i].match(imageRegexp3)[1];
                 i++;
-            }else{
-                imageResult1length=imageResult1length-1;
+            } else {
+                imageResult1length = imageResult1length - 1;
             }
         }
     }
-    if(imageResult2) {
-        imageResult2length=imageResult1length+imageResult2.length;
 
-        for(var i = imageResult1length; i <imageResult2length;) {
-            if(imageResult2[i-imageResult1length].match(imageRegexp3)){
-                image[i]=imageResult2[i-imageResult1length].match(imageRegexp3)[1];
+    if(imageResult2) {
+        imageResult2length = imageResult1length + imageResult2.length;
+
+        for(var i = imageResult1length; i < imageResult2length; ) {
+            if(imageResult2[i - imageResult1length].match(imageRegexp3)) {
+                image[i] = imageResult2[i - imageResult1length].match(imageRegexp3)[1];
                 i++;
             }else{
-                imageResult2length=imageResult2length-1;
+                imageResult2length = imageResult2length - 1;
             }
         }
     }
 
     // store this news to mongoDB
-    latecomer.store(origId, title, content,time,source, author,type,newsurl,image);
+    latecomer.store(origId, title, content, time, source, author, type, newsurl, image);
 
     console.log("[" + origId + "]" + type + " - " + title);
-
-    // test
-//    var result = {
-//        origId: origId,
-//        title: title,
-//        content: content,
-//        pubTime: time,
-//        source: source,
-//        author: author,
-//        type: type
-//    };
-//    console.log(result);
 });
 
 latecomer.start("amqp://localhost", "test");

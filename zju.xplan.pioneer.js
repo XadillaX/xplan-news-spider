@@ -10,38 +10,38 @@ var pioneer = new SpiderPioneer("mongodb://127.0.0.1/zju-cst-xplan");
 pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=72&p=:page");
 
 // 教学管理
-//pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=23&p=:page");
-//pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=73&p=:page");
-//pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=75&p=:page");
-//pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=145&p=:page");
-//pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=83&p=:page");
-//pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=66&p=:page");
-//pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=112&p=:page");
+pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=23&p=:page");
+pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=73&p=:page");
+pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=75&p=:page");
+pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=145&p=:page");
+pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=83&p=:page");
+pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=66&p=:page");
+pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=112&p=:page");
 
 // 学生思政
-//pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=31&p=:page");
-//pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=28&p=:page");
-//pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=30&p=:page");
-//pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=32&p=:page");
-//pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=29&p=:page");
-//pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=33&p=:page");
-//pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=143&p=:page");
-//pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=67&p=:page");
+pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=31&p=:page");
+pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=28&p=:page");
+pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=30&p=:page");
+pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=32&p=:page");
+pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=29&p=:page");
+pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=33&p=:page");
+pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=143&p=:page");
+pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=67&p=:page");
 
 // 实习就业
-//pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=34&p=:page");
-//pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=35&p=:page");
-//pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=68&p=:page");
-//pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=113&p=:page");
-//pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=157&p=:page");
-//pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=114&p=:page");
-//pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=115&p=:page");
+pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=34&p=:page");
+pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=35&p=:page");
+pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=68&p=:page");
+pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=113&p=:page");
+pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=157&p=:page");
+pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=114&p=:page");
+pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=115&p=:page");
 
 // 合作科研
-//pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=37&p=:page");
-//pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=36&p=:page");
-//pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=130&p=:page");
-//pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=144&p=:page");
+pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=37&p=:page");
+pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=36&p=:page");
+pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=130&p=:page");
+pioneer.addListPage("http://www.cst.zju.edu.cn/index.php?c=Index&a=tlist&catid=144&p=:page");
 
 // the page count function
 pioneer.setGetPageCountFunc(function(urlWithPage, spider, cb) {

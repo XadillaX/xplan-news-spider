@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="377f7315-954e-4ed0-8d78-508aad526ed7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zju.xplan.pioneer.js" afterPath="$PROJECT_DIR$/zju.xplan.pioneer.js" />
     </list>
     <ignored path="567.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,10 +25,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="zju.xplan.latecomer.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="zju.xplan.latecomer.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/zju.xplan.latecomer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="66" selection-start="2917" selection-end="2917" vertical-scroll-proportion="0.48964497" vertical-offset="989" max-vertical-offset="1875">
+            <state line="88" column="66" selection-start="2917" selection-end="2917" vertical-scroll-proportion="0.0" vertical-offset="989" max-vertical-offset="1875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zju.xplan.pioneer.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/zju.xplan.pioneer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="0" selection-start="2372" selection-end="2372" vertical-scroll-proportion="0.82728595" vertical-offset="0" max-vertical-offset="1470">
               <folding />
             </state>
           </provider>
@@ -53,13 +61,13 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/zju.xplan.pioneer.js" />
         <option value="$PROJECT_DIR$/node_modules/xplanspider/lib/spiderLatecomer.js" />
         <option value="$PROJECT_DIR$/node_modules/xplanspider/lib/db/newsSchema.js" />
         <option value="$PROJECT_DIR$/node_modules/xplanspider/lib/db/newsModel.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/node_modules/xplanspider/lib/spiderPioneer.js" />
         <option value="$PROJECT_DIR$/zju.xplan.latecomer.js" />
+        <option value="$PROJECT_DIR$/zju.xplan.pioneer.js" />
       </list>
     </option>
   </component>
@@ -238,7 +246,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="812" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -336,11 +344,6 @@
         <state line="71" column="6" selection-start="1562" selection-end="1562" vertical-scroll-proportion="0.69343066" vertical-offset="590" max-vertical-offset="1275" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zju.xplan.pioneer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="3" selection-start="4467" selection-end="4467" vertical-scroll-proportion="1.1094891" vertical-offset="560" max-vertical-offset="1470" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/xplanspider/lib/spiderPioneer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="109" selection-start="2057" selection-end="2057" vertical-scroll-proportion="0.0" vertical-offset="1665" max-vertical-offset="2430">
@@ -350,7 +353,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/zju.xplan.latecomer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="66" selection-start="2917" selection-end="2917" vertical-scroll-proportion="0.48964497" vertical-offset="989" max-vertical-offset="1875">
+        <state line="88" column="66" selection-start="2917" selection-end="2917" vertical-scroll-proportion="0.0" vertical-offset="989" max-vertical-offset="1875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zju.xplan.pioneer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="2372" selection-end="2372" vertical-scroll-proportion="0.82728595" vertical-offset="0" max-vertical-offset="1470">
           <folding />
         </state>
       </provider>

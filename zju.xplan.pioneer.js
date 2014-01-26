@@ -89,4 +89,4 @@ pioneer.setParseListFunc(function(status, html, respHeader) {
 });
 
 // start the service
-pioneer.start("amqp://localhost", "test", 60 * 60 * 1000);
+pioneer.start("amqp://localhost", "test", 60 *60 * 1000);

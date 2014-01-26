@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="377f7315-954e-4ed0-8d78-508aad526ed7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zju.xplan.latecomer.js" afterPath="$PROJECT_DIR$/zju.xplan.latecomer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zju.xplan.pioneer.js" afterPath="$PROJECT_DIR$/zju.xplan.pioneer.js" />
     </list>
     <ignored path="567.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,25 +28,25 @@
       <file leaf-file-name="spiderPioneer.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/xplanspider/lib/spiderPioneer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="20" selection-start="1076" selection-end="1076" vertical-scroll-proportion="0.0" vertical-offset="1172" max-vertical-offset="2445">
+            <state line="69" column="0" selection-start="2424" selection-end="2480" vertical-scroll-proportion="0.0" vertical-offset="1772" max-vertical-offset="2460">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newsModel.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="newsModel.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/xplanspider/lib/db/newsModel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="9" selection-start="953" selection-end="953" vertical-scroll-proportion="0.1497093" vertical-offset="512" max-vertical-offset="1200">
+            <state line="41" column="14" selection-start="958" selection-end="958" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="1215">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="zju.xplan.pioneer.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="zju.xplan.pioneer.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zju.xplan.pioneer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="12" selection-start="4293" selection-end="4293" vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="1470">
+            <state line="85" column="12" selection-start="4383" selection-end="4383" vertical-scroll-proportion="0.7165698" vertical-offset="782" max-vertical-offset="1470">
               <folding />
             </state>
           </provider>
@@ -76,15 +74,15 @@
         <option value="$PROJECT_DIR$/node_modules/xplanspider/lib/db/newsSchema.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/zju.xplan.latecomer.js" />
-        <option value="$PROJECT_DIR$/zju.xplan.pioneer.js" />
         <option value="$PROJECT_DIR$/node_modules/xplanspider/lib/spiderPioneer.js" />
         <option value="$PROJECT_DIR$/node_modules/xplanspider/lib/db/newsModel.js" />
+        <option value="$PROJECT_DIR$/zju.xplan.pioneer.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="342" />
-    <option name="y" value="253" />
+    <option name="x" value="147" />
+    <option name="y" value="62" />
     <option name="width" value="1400" />
     <option name="height" value="811" />
   </component>
@@ -151,6 +149,76 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="x-plan-news" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="x-plan-news" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xplanspider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="x-plan-news" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="x-plan-news" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xplanspider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="x-plan-news" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="x-plan-news" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xplanspider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -209,14 +277,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="342" y="253" width="1400" height="811" extended-state="1" />
-    <editor active="false" />
+    <frame x="147" y="62" width="1400" height="811" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20785715" sideWeight="0.67040676" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20785715" sideWeight="0.67040676" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32959327" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -252,7 +320,7 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -311,11 +379,6 @@
         <state line="9" column="12" selection-start="197" selection-end="205" vertical-scroll-proportion="0.19622093" vertical-offset="0" max-vertical-offset="688" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zju.xplan.latecomer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="0" selection-start="3550" selection-end="3550" vertical-scroll-proportion="0.0" vertical-offset="1065" max-vertical-offset="1740" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/xplanspider/lib/spiderLatecomer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="63" column="8" selection-start="1609" selection-end="1609" vertical-scroll-proportion="0.0" vertical-offset="647" max-vertical-offset="1335">
@@ -323,23 +386,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zju.xplan.pioneer.js">
+    <entry file="file://$PROJECT_DIR$/zju.xplan.latecomer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="12" selection-start="4293" selection-end="4293" vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="1470">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/xplanspider/lib/spiderPioneer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="20" selection-start="1076" selection-end="1076" vertical-scroll-proportion="0.0" vertical-offset="1172" max-vertical-offset="2445">
+        <state line="110" column="0" selection-start="3550" selection-end="3550" vertical-scroll-proportion="2.088889" vertical-offset="240" max-vertical-offset="1740">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/xplanspider/lib/db/newsModel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="9" selection-start="953" selection-end="953" vertical-scroll-proportion="0.1497093" vertical-offset="512" max-vertical-offset="1200">
+        <state line="41" column="14" selection-start="958" selection-end="958" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="1215">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/xplanspider/lib/spiderPioneer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="0" selection-start="2424" selection-end="2480" vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="2460">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zju.xplan.pioneer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="12" selection-start="4383" selection-end="4383" vertical-scroll-proportion="0.7165698" vertical-offset="782" max-vertical-offset="1470">
           <folding />
         </state>
       </provider>
